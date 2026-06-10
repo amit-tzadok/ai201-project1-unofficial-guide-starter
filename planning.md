@@ -36,21 +36,21 @@ This information is hard to find because CS students at UB tend to keep to thems
 
 ## Chunking Strategy
 
-**Chunk size:** 500 characters
+**Chunk size:** 500 characters (max per chunk)
 
 **Overlap:** 100 characters
 
-**Reasoning:** My documents are a mix of tip lists (short, discrete pieces of advice) and informational guides (longer paragraphs covering a single topic). Most individual tips or pieces of advice run 200–600 characters. A 500-character chunk is large enough to capture a complete tip or a full paragraph of advice, which means most chunks will be self-contained and retrievable on their own. The 100-character overlap ensures that if a key fact spans a chunk boundary — for example, a sentence that starts at the end of one chunk and finishes in the next — both chunks will contain enough of that sentence to be useful. I'm splitting by character count rather than by paragraph because paragraph lengths vary widely across my documents (some "paragraphs" are one-liners, others are 800+ characters), and a fixed character split gives more consistent chunk sizes for the embedding model.
+**Reasoning:** My documents are structured like a big-sister guide — each paragraph usually covers one distinct piece of advice (e.g., "start leetcoding after CSE 250" or "join UB ACM in your first semester"). Splitting by paragraph preserves these natural boundaries so each chunk is a complete, self-contained tip. If I split purely by character count, it would cut tips in half and make chunks harder to retrieve meaningfully. For paragraphs longer than 500 characters, I fall back to character splitting with 100-character overlap to catch sentences that land on the boundary. Very short paragraphs (under 100 characters) get merged with the next one to avoid tiny, useless chunks.
 
 ---
 
 ## Retrieval Approach
 
-**Embedding model:** `all-MiniLM-L6-v2` via `sentence-transformers`. This model runs locally, requires no API key, and produces 384-dimensional embeddings. It's well-suited for short English text, which matches my document style.
+**Embedding model:** `all-MiniLM-L6-v2` via sentence-transformers. Runs locally, no API key needed, produces 384-dimensional embeddings. Good for short English text, which matches my document style.
 
-**Top-k:** 5 chunks per query. This should provide enough context to answer most questions (2-3 highly relevant chunks plus some supporting material) without diluting the context with too many loosely related results.
+**Top-k:** 5. My documents cover overlapping topics (e.g., internship advice appears in both the internship guide and the career fair doc), so retrieving 5 chunks gives enough breadth to pull relevant info from multiple sources without diluting the context.
 
-**Production tradeoff reflection:** If I were deploying this for real users, I'd consider several tradeoffs. First, `all-MiniLM-L6-v2` has a 256-token context window for encoding — longer chunks may get truncated, which could hurt retrieval quality for dense paragraphs. A model like `all-mpnet-base-v2` handles longer inputs (384 tokens) and scores higher on benchmarks, but is slower. Second, UB has a large international student population, so a multilingual model like `paraphrase-multilingual-MiniLM-L12-v2` could help students who search in their native language. Third, for a production system with real-time users, I'd weigh API-hosted embeddings (like OpenAI's `text-embedding-3-small`) against local inference — API models are faster to deploy and update but add latency and cost per query.
+**Production tradeoff reflection:** If I were deploying this for real UB students, I'd consider multilingual support since UB has a large international student population. A model like `paraphrase-multilingual-MiniLM-L12-v2` would let students search in their native language, which could make the guide more accessible. I'd also consider a model with a longer context window — `all-MiniLM-L6-v2` only handles 256 tokens per chunk, so longer paragraphs could get truncated during embedding, which means the search might miss relevant content buried at the end of a chunk.
 
 ---
 
@@ -58,19 +58,19 @@ This information is hard to find because CS students at UB tend to keep to thems
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | Where should freshmen live at UB and why? | North Campus, because most freshman classes are there and commuting by bus from South Campus is inconvenient. Submit your housing application early for priority room selection. |
-| 2 | What should I do if UB classes aren't canceled but the weather is dangerous? | Use your best judgment and prioritize safety. Email your professor — students won't be penalized for missing class due to hazardous travel conditions, but must make up work promptly. |
-| 3 | How do I get mental health counseling at UB? | Call Counseling Services at 716-645-2720. Services are free for registered students and include individual counseling, group therapy, wellness coaching, and embedded counselors in each academic unit. Crisis line: press option 2 after hours, or call/text 988. |
-| 4 | What are the parking rules for first-year students living on campus? | First-year residents can have a car but must park in their residence hall lot or Park and Ride lots Monday–Friday, 7 AM–3 PM. Governors residents use Governors E Lot. Register for a free virtual permit through the E-Business Center. |
-| 5 | What should I check before signing an off-campus lease near UB? | Verify the property passed a NYS safety inspection within 3 years, visit in person, research the landlord, check for smoke/CO detectors, understand roommate liability (each tenant is responsible for full rent), and document existing damage with photos before moving in. |
+| 1 | When should I start leetcoding and what should I focus on first? | Start as soon as you finish CSE 115. Begin early and go slow — focus on Easy problems with topics you already know (arrays, strings, basic loops) so you master the fundamentals over time rather than cramming before interview season. |
+| 2 | Which CS clubs should I join as a freshman? | UB ACM (the main CS community with tech talks and hackathons), UB DivTech (support for underrepresented CS students), and Society of Women Engineers (SWE) for networking and mentorship. |
+| 3 | How do I prepare for the STEAM career fair? | Research companies in advance and make a list of the most important ones to visit. Prepare a list of questions for each company. Write and practice an elevator pitch. Print copies of your resume on good paper. Purchase a business professional outfit. |
+| 4 | How do I become a TA in the CS department? | Go to office hours regularly and build relationships with your professors. Put real effort into your classwork and show that you care about the material. You need a strong grade in the course (typically an A or A-), and expressing interest directly to the professor is often the best approach. |
+| 5 | What programming languages should I learn outside of class? | Depends on your chosen career path, but Python is a must regardless. For web development, learn JavaScript/TypeScript. For systems work, consider Go or Rust. For mobile, Swift or Kotlin. SQL is valuable across all paths. |
 
 ---
 
 ## Anticipated Challenges
 
-1. **Winter-related content overlap across multiple documents.** Three of my 12 documents focus on winter survival and weather policies. Chunks from these documents may compete with each other during retrieval, returning redundant information instead of pulling from different relevant sources. This could result in answers that are repetitive rather than comprehensive, and could crowd out chunks from other documents that might add useful context.
+1. **My personal experience vs. what's actually in the documents.** Some of my expected answers come from my own experience as a CS student — like recommending SWE (Society of Women Engineers) for clubs, or advising students to go to office hours to build relationships with professors before applying to be a TA. If those specific tips aren't in the collected documents, the system can't ground its answer in them. It will either give an incomplete answer that's missing the most useful advice, or worse, hallucinate an answer that sounds right but isn't backed by any source. This is a real limitation of RAG — the system can only be as good as the documents it has.
 
-2. **Chunk boundary splitting key advice.** Some of my documents contain numbered tips where the context (e.g., "Tip 3: Meet with your advisor often") is followed by an explanation. If the chunk boundary falls between the tip header and its explanation, retrieval might return the explanation without the context of what it's about, or the header without the details. The 100-character overlap should mitigate this, but it won't catch all cases, especially for longer explanations.
+2. **Slang and informal queries vs. formal document language.** Real CS students don't type "What study strategies should I use for CSE 331?" — they ask things like "am I cooked for 331?" or "how do I not fail algorithms?" The embedding model might not match these informal queries to the relevant chunks because the documents use more formal language. This could lead to poor retrieval even when the answer exists in the documents.
 
 ---
 
@@ -80,10 +80,10 @@ This information is hard to find because CS students at UB tend to keep to thems
 ┌─────────────────┐     ┌──────────────────┐     ┌──────────────────────────┐
 │  Document        │     │  Chunking         │     │  Embedding + Storage     │
 │  Ingestion       │────▶│                   │────▶│                          │
-│                  │     │  Split by 500     │     │  all-MiniLM-L6-v2        │
-│  Load .txt files │     │  chars, 100       │     │  (sentence-transformers) │
-│  from documents/ │     │  overlap          │     │  → ChromaDB collection   │
-│  (Python I/O)    │     │  (Python)         │     │  with source metadata    │
+│                  │     │  Split by          │     │  all-MiniLM-L6-v2        │
+│  Load .txt files │     │  paragraph, then   │     │  (sentence-transformers) │
+│  from documents/ │     │  by 500 chars if   │     │  → ChromaDB collection   │
+│  (Python I/O)    │     │  too long          │     │  with source metadata    │
 └─────────────────┘     └──────────────────┘     └──────────┬───────────────┘
                                                              │
                                                              ▼
@@ -101,10 +101,10 @@ This information is hard to find because CS students at UB tend to keep to thems
 ## AI Tool Plan
 
 **Milestone 3 — Ingestion and chunking:**
-I'll give Claude Code my Chunking Strategy section (500-char chunks, 100-char overlap) and the list of document files in `documents/`. I'll ask it to implement: (1) a `load_documents()` function that reads all `.txt` files from the documents directory and returns a list of `{filename, text}` dicts, and (2) a `chunk_text()` function that splits each document's cleaned text into chunks of 500 characters with 100-character overlap, attaching the source filename as metadata to each chunk. I'll verify by printing 5 random chunks and checking they're self-contained and correctly attributed.
+I'll give Claude Code my Chunking Strategy section (paragraph-based splitting, 500-char max, 100-char overlap) and the list of document files in `documents/`. I'll ask it to implement: (1) a `load_documents()` function that reads all `.txt` files from the documents directory, and (2) a `chunk_text()` function that splits by paragraph first, then falls back to character splitting for long paragraphs, merging short ones. I'll verify by printing 5 random chunks and checking they're complete tips, not cut-off fragments.
 
 **Milestone 4 — Embedding and retrieval:**
-I'll give Claude Code my Retrieval Approach section and Architecture diagram. I'll ask it to implement: (1) embedding all chunks using `SentenceTransformer("all-MiniLM-L6-v2")`, (2) storing them in a ChromaDB collection with source filename metadata, and (3) a `retrieve(query, k=5)` function that returns the top-k chunks with distances and source info. I'll verify by running 3 of my evaluation plan queries and checking that the top results are relevant with distance scores below 0.5.
+I'll give Claude Code my Retrieval Approach section and Architecture diagram. I'll ask it to implement: (1) embedding all chunks using `SentenceTransformer("all-MiniLM-L6-v2")`, (2) storing them in a ChromaDB collection with source filename metadata, and (3) a `retrieve(query, k=5)` function that returns the top-k chunks with distances and source info. I'll verify by running 3 of my evaluation plan queries and checking that the top results are actually relevant to the question.
 
 **Milestone 5 — Generation and interface:**
-I'll give Claude Code my Architecture diagram and the grounding requirement (answers from retrieved context only, with source attribution). I'll ask it to implement: (1) a `generate_answer(query, chunks)` function that calls Groq's `llama-3.3-70b-versatile` with a system prompt enforcing grounded responses and source citations, and (2) a Gradio web UI with a text input, submit button, answer display, and sources display. I'll verify by asking 2-3 queries end-to-end, checking that responses cite sources and that an out-of-scope question gets a refusal.
+I'll give Claude Code the grounding requirement (answers from retrieved context only, with source citations). I'll ask it to implement: (1) a `generate_answer(query, chunks)` function that calls Groq's `llama-3.3-70b-versatile` with a system prompt enforcing grounded responses, and (2) a Gradio web UI with a text input, answer display, and sources display. I'll verify by asking questions end-to-end, checking that responses cite real sources, and asking an off-topic question to make sure the system says "I don't have enough information" instead of making something up.

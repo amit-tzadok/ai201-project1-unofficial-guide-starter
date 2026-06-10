@@ -9,7 +9,9 @@
 
 ## Domain
 
-Campus survival tips for students at the University at Buffalo (UB). This domain covers the practical, day-to-day knowledge that students share with each other but isn't easily found through official university channels — things like which campus to live on as a freshman, how to survive Buffalo winters, parking hacks, registration tricks, mental health resources students actually use, and off-campus housing pitfalls. Official UB pages exist for some of these topics, but they tend to be dry and procedural. The real value is in student-sourced advice: what actually matters, what to avoid, and what nobody tells you until it's too late.
+Survival guide for computer science students at the University at Buffalo. This guide covers the practical knowledge that CS students need but struggle to find — things like how to find research opportunities, when to start preparing for internships and leetcoding, which clubs and communities can help you find your path, which courses matter most for your career goals, and how to build experience as a coder outside of schoolwork.
+
+This information is hard to find because CS students at UB tend to keep to themselves. As a girl in a male-dominated program, I didn't fit into the study cliques that formed naturally, so I was mostly a one-woman team through my degree. Research opportunities weren't advertised in any obvious way, and I wish I had known as a freshman how important it was to start building experience early through research and internships. The upperclassmen I did talk to mostly just said "it's so hard" and "you're cooked" instead of offering real, actionable advice. An unofficial guide with honest, helpful tips from someone who's been through it would have made a huge difference.
 
 ---
 
@@ -17,18 +19,18 @@ Campus survival tips for students at the University at Buffalo (UB). This domain
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | Quora — Freshman Tips | Student-sourced tips for incoming UB freshmen: housing, advising, textbooks, getting involved | https://www.quora.com/What-are-some-tips-and-hacks-for-incoming-freshmen-at-University-at-Buffalo |
-| 2 | Quora — Grad Student Life Hacks | Graduate student advice on funding, libraries, gym, cooking, counseling, networking | https://www.quora.com/What-are-some-of-the-life-hacks-at-University-at-Buffalo-SUNY-for-graduate-students |
-| 3 | UB Student Life — Living and Dining | Official guide on housing options, dining halls, meal plans, shopping on campus | https://www.buffalo.edu/studentlife/life-on-campus/living.html |
-| 4 | UB Parking and Transportation | Student parking rules, shuttle info, biking, first-year restrictions, commuter lots | https://www.buffalo.edu/parking/parking-places/parking-for-me/student-parking.html |
-| 5 | UB Management Blog — Winter Tips | Student blog post with 5 practical tips for managing Buffalo's harsh winters | http://ubwp.buffalo.edu/business-management-mba-ms/2022/11/22/five-tips-for-managing-buffalo-winters/ |
-| 6 | UB Feature — My First Buffalo Winter | International student experiences, winter activities, ISSS support, Winterfest | https://www.buffalo.edu/home/feature_story/my-first-buffalo-winter.html |
-| 7 | UB Student Success — Registration Guide | Course registration steps, advising tools, credit requirements, scheduling tips | https://www.buffalo.edu/studentsuccess/advising/plan-your-courses-and-registration.html |
-| 8 | UBNow — Winter Weather Reminders | Class cancellation policies, UB Alert, driving safety, snow removal contacts | https://www.buffalo.edu/ubnow/stories/2024/12/winter-weather.html |
-| 9 | UB Student Life — Mental Health | Counseling services, embedded counselors, crisis resources, wellness coaching | https://www.buffalo.edu/studentlife/life-on-campus/health/mental-well-being.html |
-| 10 | UB Off-Campus Living Guide | Lease tips, safety inspections, roommate contracts, renters insurance, neighborhoods | https://www.buffalo.edu/community/neighbors/students/off-campus-living-guide.html |
-| 11 | UB Student Life — Clubs and Activities | 500+ clubs, UBLinked platform, student government, starting a new club | https://www.buffalo.edu/studentlife/life-on-campus/clubs-and-activities.html |
-| 12 | UB Student Life — Campus Experience | Campus culture, hidden gems, facilities, safety, support resources, getting around | https://www.buffalo.edu/studentlife/life-on-campus/that-ub-life.html |
+| 1 | UB CSE Dept — Student Organizations | CS clubs at UB: ACM, UB Hacking, MakeOpenSource, UBNetDef, DivTech, etc. | https://engineering.buffalo.edu/computer-science-engineering/people/professional-and-student-organizations.html |
+| 2 | UB CSE Dept — Undergraduate Research | How to find research opportunities, REU program, research areas, faculty contacts | https://engineering.buffalo.edu/computer-science-engineering/undergraduate/experiential-learning/undergraduate-research.html |
+| 3 | UB CSE Dept — Internships | Internship credit, finding opportunities, application process, international student requirements | https://engineering.buffalo.edu/computer-science-engineering/information-for-students/experiential-learning/internships.html |
+| 4 | LeetCode Discuss — Intern Guide | LeetCode preparation timeline, study strategies, and technical interview advice | https://leetcode.com/discuss/post/229221/an-unofficial-guide-for-first-timers-interns-version/ |
+| 5 | UB Career Design Center — STEAM Fair | Career fair preparation, employer list, resume tips, interview practice resources | https://www.buffalo.edu/career/events/stemup.html |
+| 6 | UB CSE Dept — Course Catalog + BS CS | Full course listing, curriculum structure, required and elective courses with advice | https://engineering.buffalo.edu/computer-science-engineering/undergraduate/courses/course-catalog.html |
+| 7 | UB CSE Dept — TA Resources + Handbook | How to become a TA/SA, responsibilities, grading guidelines, tips for working with TAs | https://engineering.buffalo.edu/computer-science-engineering/information-for-students/undergraduate-program/cse-teaching-assistant-ta-resources.html |
+| 8 | UB CSE Dept — Graduate Programs (MS) | Grad school prep, MS specializations, BS/MS combined program, application requirements, funding | https://engineering.buffalo.edu/computer-science-engineering/graduate/degrees-and-programs/ms-in-computer-science-and-engineering.html |
+| 9 | Compiled student advice | Programming languages and tools to learn outside class, portfolio building, career paths | Student advice compilation |
+| 10 | CSE 331 Support Page — TA Advice | Study strategies, common mistakes, and survival tips for CSE 331 (Algorithms) | http://www-student.cse.buffalo.edu/~atri/cse331/support/advice/index.html |
+| 11 | UB CSE Dept — Experiential Learning | Overview of hackathons, research, internships, workshops, and clubs | https://engineering.buffalo.edu/computer-science-engineering/undergraduate/experiential-learning.html |
+| 12 | Niche.com — UB CS Reviews | Student reviews of UB's CS program: course quality, career outcomes, challenges, facilities | https://www.niche.com/colleges/university-at-buffalo-suny/academics/ |
 
 ---
 

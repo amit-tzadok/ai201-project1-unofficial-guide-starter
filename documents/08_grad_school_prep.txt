@@ -1,0 +1,51 @@
+Source: UB CSE Department - Graduate Programs
+URLs: https://engineering.buffalo.edu/computer-science-engineering/graduate.html, https://engineering.buffalo.edu/computer-science-engineering/graduate/degrees-and-programs/ms-in-computer-science-and-engineering.html
+Type: Official department pages
+
+Graduate School Preparation for UB CS Students:
+
+Should You Go to Grad School:
+Graduate school in CS is not for everyone. An MS is useful if you want to specialize in an area like AI/ML, security, or systems — or if you want to advance into more senior technical roles. A PhD is for people who want to do research, work in academia, or pursue research positions at top labs. If you're happy with a software engineering career, a bachelor's degree plus strong internship experience is often sufficient.
+
+UB's MS in Computer Science and Engineering:
+The program is STEM-approved and currently has 384 master's candidates. It offers 11 specializations:
+1. AI and Machine Learning
+2. Computer Security and Privacy
+3. Computer Vision and Image Processing
+4. Database Systems
+5. Distributed Systems and Networks
+6. Embodied AI (Robotics)
+7. High Performance Computing
+8. Information Retrieval / NLP
+9. Programming Language Design
+10. Pure and Applied Logic
+11. Software and Hardware Systems
+
+Program Tracks:
+The Research Track is more selective and involves in-depth learning, culminating in either a capstone project (presented at CSE Demo Day) or a thesis defense. This track is ideal for current UB undergrads who want to continue directly into the MS program.
+
+BS/MS Combined Program:
+UB offers a streamlined BS/MS program that takes 134 credits total instead of 150 credits if done separately. You get guaranteed graduate admission if you maintain satisfactory progress. This is one of the best-kept secrets for UB CS undergrads — you can finish both degrees in 5 years instead of 6.
+
+Application Requirements:
+- Two letters of recommendation for MS, three for PhD
+- GRE is NOT required for either program
+- Letters from professors who know your academic work are strongly preferred — this is where research experience and TA relationships pay off
+
+How to Prepare as an Undergrad:
+1. Do undergraduate research (CSE 498/499). This is the single most important thing for grad school applications.
+2. Build relationships with professors — you need strong recommendation letters.
+3. Maintain a good GPA, especially in core CS courses. Aim for 3.5+ if possible.
+4. Take challenging electives in your area of interest to show depth.
+5. Read research papers in your area of interest. Start with survey papers to understand the landscape.
+6. Attend research talks and seminars in the department — they're free and expose you to cutting-edge work.
+7. If applying to PhD programs elsewhere, start the process in fall of your senior year. Deadlines are typically December.
+
+Career Outcomes:
+MS graduates from UB CSE have been hired at major companies including Bloomberg, Google, and Microsoft. Computing and IT occupations had a median income of $82,860 nationally. Faculty in the department bring in an average of $4.5 million annually in external research awards, which funds graduate assistantships.
+
+Funding:
+Graduate assistantships (TA positions) provide a stipend and tuition waiver. Research assistantships (RA positions) are funded through faculty grants. External fellowships like NSF GRFP are highly competitive but cover full tuition plus stipend for 3 years.
+
+Contact: easgrad-enroll@buffalo.edu
+Director of Graduate Admissions: Dr. Junsong Yuan

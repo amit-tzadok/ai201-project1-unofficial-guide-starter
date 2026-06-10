@@ -1,0 +1,42 @@
+Source: LeetCode Discuss - Unofficial Guide for First-Time Interns, combined with general CS career advice
+URL: https://leetcode.com/discuss/post/229221/an-unofficial-guide-for-first-timers-interns-version/
+Type: Student advice / forum
+
+LeetCode and Technical Interview Preparation for UB CS Students:
+
+When to Start:
+If you're a first-year student, you probably haven't had a chance to learn advanced algorithms yet and that's totally okay. Start with the topics you've already learned — arrays, strings, basic loops — and work on those problems by tag on LeetCode. After CSE 250 (Data Structures), you'll be able to tackle medium-difficulty problems. After CSE 331 (Algorithms), you'll have the foundation for most interview questions.
+
+Recommended Timeline:
+- Freshman year: Learn basic programming well (CSE 115/116). Start exploring LeetCode Easy problems for fun.
+- Sophomore year: After CSE 250, begin serious LeetCode practice. Focus on arrays, linked lists, trees, hash maps, and basic sorting. Aim for 2-3 problems per week.
+- Junior year: After CSE 331, you'll understand dynamic programming, graph algorithms, and complexity analysis. Ramp up to 4-5 problems per week. Target medium-difficulty problems.
+- Senior year: Maintain your skills. Focus on hard problems and system design if targeting senior-level positions.
+
+Key Topics to Study:
+1. Arrays and Strings — most common interview topic
+2. Hash Maps and Sets — appear in almost every interview
+3. Trees and Binary Search Trees — know traversals, BFS, DFS
+4. Linked Lists — pointer manipulation, fast/slow pointer technique
+5. Dynamic Programming — hardest topic, but learnable with practice (start after CSE 331)
+6. Graphs — BFS, DFS, shortest path algorithms (covered in CSE 331)
+7. Sorting and Searching — binary search is especially important
+8. Stack and Queue problems
+9. Recursion and Backtracking
+10. System Design — for more senior roles, understand how to design scalable systems
+
+Study Resources:
+- LeetCode (free tier is sufficient to start, premium helps with company-specific questions)
+- NeetCode.io — curated problem lists organized by topic, with video explanations
+- Blind 75 — a list of 75 essential LeetCode problems that cover all major patterns
+- Cracking the Coding Interview (book) — good for understanding interview structure
+- UB ACM sometimes hosts mock interview sessions and coding workshops
+
+Behavioral Interview Tips:
+Technical interviews aren't just about coding. You'll also face behavioral questions. Prepare stories about teamwork, handling conflict, and times you overcame a technical challenge. Use the STAR method (Situation, Task, Action, Result).
+
+Common Mistakes:
+- Waiting until junior year to start preparing. Start early, even if it's just a few problems a week.
+- Only doing Easy problems. You need to be comfortable with Medium to pass most interviews.
+- Not practicing out loud. In real interviews, you need to explain your thinking while coding.
+- Ignoring time complexity. Always analyze the Big O of your solution.

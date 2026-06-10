@@ -1,0 +1,30 @@
+Source: UB CSE Department - TA Resources and SA/TA Handbook
+URLs: https://engineering.buffalo.edu/computer-science-engineering/information-for-students/undergraduate-program/cse-teaching-assistant-ta-resources.html, https://engineering.buffalo.edu/content/dam/engineering/computer-science-engineering/info-for/info-for-students/instruction/cse-student-teaching-assistant-handbook-v20240529.pdf
+Type: Official department resource
+
+Being a TA in CSE at University at Buffalo:
+
+Why Become a TA:
+Being a teaching assistant (TA) or student assistant (SA) in CSE is one of the best experiences you can have as an undergrad. You deepen your understanding of the material by teaching it, you build a relationship with a professor (great for recommendations), and it looks excellent on your resume. Plus, graduate TAs get a stipend and tuition waiver.
+
+Who Can Be a TA:
+Undergraduate students can serve as Student Assistants (SAs) for lower-level courses like CSE 115 and CSE 116. You need to have done well in the course yourself (typically an A or A-). Graduate students serve as Teaching Assistants (TAs) and can be assigned to any course.
+
+Responsibilities:
+TAs and SAs typically hold office hours, grade assignments and exams, lead lab or recitation sections, answer student questions on Piazza or other discussion boards, and sometimes help create assignments or exam questions. The workload varies by course — some courses have heavy grading loads (like CSE 250), while others are more focused on office hours.
+
+Grading Guidelines:
+You are responsible for understanding the work that you grade. If you do not understand the assignment, seek help from the instructor before grading. This is particularly important when grading answers that may depart from the expected solution but still be correct.
+
+Consistency is critical — similar errors should result in similar point deductions across all students. If you're grading with other TAs, coordinate rubrics at the beginning to ensure fairness.
+
+If providing hand-written feedback, make it legible. Avoid very small notations that students may struggle to read or miss entirely. Clear, constructive feedback helps students learn more than a simple point deduction.
+
+Tips for Students Working with TAs:
+- Go to TA office hours. They're often less crowded than professor office hours and TAs can spend more time walking you through problems.
+- TAs were recently in your position — they know exactly what's confusing about the material because they struggled with it too.
+- Be respectful of TAs' time. Come to office hours with specific questions, not "I don't understand anything."
+- If you think grading was unfair, talk to the TA first. If unresolved, escalate to the professor.
+
+How to Apply:
+Applications for SA/TA positions are typically announced at the end of each semester for the following term. Watch for emails from the CSE department or check with your professors if you're interested. Expressing interest directly to a professor whose course you did well in is often the best approach.

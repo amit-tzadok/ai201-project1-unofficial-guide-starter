@@ -1,0 +1,43 @@
+Source: Compiled student advice and industry recommendations for UB CSE students
+Type: Student advice compilation
+
+Programming Languages and Tools to Learn Outside Class at UB:
+
+Languages You'll Learn in Class:
+- Python (CSE 115) — Your first language. Used throughout the program.
+- Java or Python deeper (CSE 116) — Object-oriented programming.
+- C (CSE 220) — Systems programming, memory management, pointers.
+- Assembly (CSE 341) — Computer organization.
+- Various languages briefly in CSE 305 (Programming Languages).
+
+Languages Worth Learning on Your Own:
+- JavaScript/TypeScript: Essential for web development. The job market for full-stack developers is enormous. Learn React or Next.js for frontend, Node.js or Express for backend. CSE 312 (Web Applications) covers some of this but doesn't go deep enough for production work.
+- SQL: Databases are everywhere. CSE 460 covers this, but learning basic SQL early will help you with projects and internships. Practice with PostgreSQL or MySQL.
+- Go or Rust: Increasingly popular for systems programming and cloud infrastructure. Knowing one of these sets you apart from other candidates.
+- Swift or Kotlin: If you're interested in mobile development. iOS (Swift) and Android (Kotlin) are both lucrative career paths.
+
+Tools Every CS Student Should Know:
+1. Git and GitHub: Version control is non-negotiable. Learn branching, merging, pull requests, and how to write good commit messages. Every software job expects this. Start using GitHub for all your projects from day one.
+2. Linux/Unix command line: You'll need this for CSE 220 and beyond, but start getting comfortable early. Use WSL on Windows or Terminal on Mac.
+3. Docker: Containerization is standard in modern software development. Learn the basics — building images, running containers, docker-compose.
+4. VS Code: The most popular code editor. Learn keyboard shortcuts, extensions (like Python, ESLint, Prettier), and integrated debugging.
+5. AWS/GCP/Azure basics: Cloud platforms are everywhere in industry. AWS has a free tier. Learn to deploy a simple application — this is impressive on a resume.
+
+Building a Portfolio:
+Your GitHub profile is your coding resume. Recruiters check it. Some ideas for impressive projects:
+- A full-stack web application (shows you can build end-to-end)
+- A CLI tool that solves a real problem
+- An open-source contribution (even small bug fixes count)
+- A machine learning project with a clear dataset and results
+- A mobile app
+
+Technical Skills by Career Path:
+- Software Engineering: Python, JavaScript/TypeScript, SQL, Git, Docker, cloud basics, system design
+- Data Science/ML: Python, SQL, pandas, scikit-learn, PyTorch or TensorFlow, statistics
+- Cybersecurity: Python, C, networking fundamentals, Linux, Wireshark, penetration testing tools
+- Systems/Infrastructure: C, Go, Rust, Linux, Docker, Kubernetes, networking
+- Frontend Development: JavaScript, TypeScript, React, CSS, design tools
+- Backend Development: Python, Java, Go, databases, APIs, message queues
+
+Advice:
+Don't try to learn everything at once. Pick one area that interests you and go deep. A strong foundation in one stack is better than surface-level knowledge of many. Your coursework provides the theory — personal projects and self-study provide the practical skills that get you hired.

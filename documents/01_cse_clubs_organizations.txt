@@ -1,0 +1,38 @@
+Source: UB CSE Department - Professional and Student Organizations
+URL: https://engineering.buffalo.edu/computer-science-engineering/people/professional-and-student-organizations.html
+Type: Official department page
+
+CS and Engineering Student Organizations at University at Buffalo:
+
+UB Association for Computing Machinery (UB ACM):
+UB ACM is the primary professional computing organization at UB. It fosters a student community around computer science and software engineering through tech talks, hackathons, and social events. ACM is one of the best ways to meet other CS students, hear about job opportunities, and learn technologies that aren't covered in class. They host regular meetings and workshops open to all skill levels.
+
+UB Hacking:
+UB Hacking is UB's official student-run hackathon, established in 2012 by the UB ACM chapter. Participants create innovative projects within 24 hours and showcase their achievements. The event includes food, prizes, and swag. It's held annually, usually in November. Faculty advisors include Professor Matthew Hertz and Professor Alan Hunt. Past sponsors have included Google, GitHub, and Rackspace. Website: ubhacking.com. UB Hacking is described as "an essential part of the CSE experience."
+
+Computer Science and Engineering Graduate Student Association (CSEGSA):
+CSEGSA brings together CSE graduate students to promote communication and address issues concerning CSE graduate students. Good for networking with grad students if you're considering graduate school.
+
+Computer Science and Engineering Undergraduate Student Advisory Board (CSEUGSAB):
+Represents the department's undergraduate student body and helps organize major annual departmental events such as CSEdWeek and CSE Open House. A good way to have your voice heard on curriculum and department decisions.
+
+MakeOpenSource (MOS):
+An open-source programming community for developers of all skill levels. MOS members collaborate on open-source projects together, which is excellent experience for your resume and for learning real-world software development practices like version control, code review, and collaborative coding. Open to both undergraduates and graduates.
+
+UB Network Defense (UBNetDef):
+UB's cybersecurity organization that offers classes each semester for students of all skill levels. They also have a competitive team that participates in cybersecurity competitions. If you're interested in security, this is the club to join.
+
+UB DivTech:
+Empowers underrepresented computer science majors through campus community, online resources, and visible role models. Great for finding mentorship and support.
+
+Society and Computing Club (SOCO):
+Raises awareness about topics at the intersection of society and computing, like social media polarization, data privacy, algorithmic bias, and the impact of technology on mental health.
+
+Inve[n|s]t UB:
+A club for innovators who want to tackle real-world challenges by building cross-functional teams that apply computing to finance, medicine, and community service.
+
+National Center for Women and Information Technology (NCWIT):
+Focuses on increasing women's participation in computing across K-12 through entrepreneurial careers.
+
+General Advice:
+The department encourages students to join organizations and consider leadership roles, stating that involvement "will look great on your resume" and provide valuable professional development. Joining at least one CS club in your first semester is one of the best things you can do — it connects you with upperclassmen who can give you advice on courses, professors, and career prep.

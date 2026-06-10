@@ -1,0 +1,32 @@
+Source: Niche.com - University at Buffalo Computer Science Reviews and Rankings
+URL: https://www.niche.com/colleges/university-at-buffalo-suny/academics/
+Type: Student review platform
+
+Student Reviews of UB's Computer Science Program:
+
+Overall Rankings:
+University at Buffalo is ranked #104 of 893 for Best Colleges for Computer Science in America on Niche. The university has a rating of 3.67 out of 5 based on 3,254 reviews. It ranks #5 in Top Public Universities in New York.
+
+Student Review 1 — First-Year CS Student:
+"The CS program is well-structured, with introductory courses that give you solid programming fundamentals while still being challenging. I was worried about the difficulty level coming in, but the progression from CSE 115 to 116 felt natural. The TAs are helpful and office hours are available almost every day."
+
+Student Review 2 — CS Freshman:
+"I am completely impressed with the program thus far. The professors are competent and friendly. I'm learning a lot and the content is preparing me for a future profession in technology. The class sizes for introductory courses are large (200+ students in lecture), but recitation sections are smaller and more interactive."
+
+Student Review 3 — General Student Experience:
+"UB has diverse academic programs and research opportunities, especially in STEM fields. The campus life is vibrant and inclusive with many clubs and activities. However, some students feel overwhelmed by large class sizes, especially in popular majors like CS. Getting into the sections you want during registration can be competitive."
+
+Student Review 4 — Upperclassman CS Perspective:
+"The upper-level CS courses are where the program really shines. Once you get past the intro courses, class sizes shrink and you get much more interaction with professors. The elective options are solid — I took Machine Learning and Distributed Systems and both were excellent. The professors who teach 400-level courses are usually active researchers who bring real-world examples into the classroom."
+
+Student Review 5 — Career Outcomes:
+"UB's CS program has good career outcomes. The STEAM career fair brings in major companies, and the Career Design Center helps with resume reviews and mock interviews. Several of my classmates got internships at companies like Google, Amazon, Bloomberg, and local tech companies. The alumni network in the Buffalo area is strong, and companies like M&T Bank and ACV Auctions recruit heavily from UB."
+
+Student Review 6 — Challenges:
+"The advising in CS can be hit or miss. With so many students in the program (over 1,200), individual attention is limited. You need to be proactive about meeting with advisors and tracking your own degree progress. Some required courses like CSE 331 (Algorithms) and CSE 396 (Theory of Computation) have high failure rates and can delay graduation if you don't pass on the first try."
+
+Student Review 7 — Facilities and Resources:
+"Davis Hall, where most CS classes and labs are held, is modern and well-equipped. The computer labs are available for students to use, and the department has a dedicated IT team. The Capen Library on North Campus is a popular study spot for CS students, especially during finals. The one downside is that parking near Davis Hall can be a pain during peak hours."
+
+Student Review 8 — International Student Perspective:
+"As an international CS student, UB was a great choice. The program is diverse with students from all over the world, and the international student services office is helpful. The OPT and CPT processes for getting internships are well-supported by the department. Many international students end up getting jobs in the US after graduation through the STEM OPT extension."

@@ -1,0 +1,30 @@
+Source: CSE 331 Support Page - Advice from TAs
+URL: http://www-student.cse.buffalo.edu/~atri/cse331/support/advice/index.html
+Type: Student/TA advice
+
+Advice for CSE 331 (Algorithms and Complexity) at University at Buffalo:
+
+Course Overview:
+CSE 331 is widely considered one of the hardest required courses in the CS program. It covers algorithm design and analysis, including topics like divide and conquer, dynamic programming, graph algorithms, greedy algorithms, network flow, NP-completeness, and computational complexity. The course is math-heavy and requires strong foundations from CSE 191 (Discrete Structures) and CSE 250 (Data Structures).
+
+Prerequisites You Need to Review:
+Background from CSE 116, CSE 191, and CSE 250 is critical. The course provides refresh notes for prerequisite material, but if you haven't used this knowledge recently, review it before the semester starts. Key topics to refresh: proof techniques (induction, contradiction), Big-O notation, recursion, tree and graph fundamentals, and basic probability.
+
+TA Advice — Study Strategies:
+- Start homework early. CSE 331 assignments are not something you can cram the night before. They require deep thinking and often multiple attempts.
+- Go to every lecture. The material builds on itself, and missing even one class can leave you lost for weeks.
+- Form a study group. Discussing problems with classmates helps you understand different approaches and catch your own mistakes. But write up solutions independently — academic integrity is taken very seriously.
+- Read the textbook actively. Don't just skim — work through the examples and try the exercises. The textbook is your best resource for understanding the formal proofs.
+- Practice writing clean proofs. CSE 331 is as much about communicating your reasoning as getting the right answer. A correct solution with unclear proof may not receive full credit.
+- Use office hours aggressively. The TAs and professor are there to help, and the material is genuinely difficult. There's no shame in asking for help.
+
+Common Mistakes:
+- Underestimating the time required. Budget at least 10-15 hours per week for this course.
+- Trying to memorize algorithms instead of understanding them. The exams test your ability to apply concepts to new problems, not regurgitate solutions.
+- Neglecting the math. If you're weak on proofs and discrete math, this course will be very difficult. Consider retaking or reviewing CSE 191 material before starting.
+- Ignoring edge cases in algorithm analysis. Always consider what happens with empty inputs, single elements, or worst-case scenarios.
+
+Why This Course Matters:
+CSE 331 is directly relevant to technical interviews. Almost every coding interview at top tech companies tests material from this course — especially dynamic programming, graph algorithms, and complexity analysis. Students who do well in CSE 331 tend to do well in technical interviews.
+
+The course is also a prerequisite or recommended background for many 400-level electives, including machine learning, data mining, and distributed systems.

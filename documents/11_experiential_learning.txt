@@ -1,0 +1,36 @@
+Source: UB CSE Department - Experiential Learning Overview
+URL: https://engineering.buffalo.edu/computer-science-engineering/undergraduate/experiential-learning.html
+Type: Official department page
+
+Experiential Learning in CSE at University at Buffalo:
+
+Overview:
+The CSE department emphasizes real-world experience as a key part of the undergraduate education. Many graduates credit experiential learning as giving them a competitive advantage during job searches and smoother career transitions. Don't just take classes — supplement your coursework with hands-on experience.
+
+CSE Internships:
+Hands-on, real-world experience at companies related to your major. Students can earn academic credit through CSE 496. You're responsible for finding your own internship, but the Career Design Center and career fairs can help. See the full internship guide for details.
+
+Undergraduate Research:
+The department provides ample opportunities to engage in creative research under faculty mentorship, including the NSF Research Experience for Undergraduates (REU) program. You can earn credit through CSE 498 (Undergraduate Research) or CSE 499 (Independent Study). Research experience is especially valuable for grad school applications.
+
+UB Hacking:
+UB's annual student-run hackathon where participants create innovative projects within 24 hours and showcase their achievements. The event includes food and swag. Even if you've never built a project outside class, hackathons are a great way to start — you'll learn by doing, and you'll meet other motivated students.
+
+Professional and Student Organizations:
+The department has over 10 CS-related clubs including UB ACM, UBNetDef, MakeOpenSource, and UB DivTech. These organizations provide supportive, collegial, and purpose-driven environments for networking and skill-building.
+
+CSE Workshop Series:
+A student-centered initiative designed to extend learning beyond the classroom and build practical, industry-relevant skills. Workshops cover topics like web development, cloud computing, and machine learning tools that aren't part of the standard curriculum.
+
+Pledge to Professionalism:
+A rite of passage event for graduating seniors affirming their commitment to their chosen profession. It's a ceremony that marks your transition from student to professional.
+
+SEAS-Wide Opportunities:
+- Senior Design: Capstone course where you build a substantial project with a team.
+- DREAM Makerspace: Hands-on project development space with tools and equipment.
+- Shared Instrumentation Laboratories (EQUIP): Access to specialized lab equipment for research.
+
+Contact: cse-uginfo@buffalo.edu
+
+Practical Advice:
+By the time you graduate, you should have at least 2-3 of these on your resume: an internship, research experience, hackathon participation, and active club membership. Employers and grad schools want to see that you did more than just attend class. Start building your experience portfolio in your freshman or sophomore year — don't wait until senior year when it's too late.

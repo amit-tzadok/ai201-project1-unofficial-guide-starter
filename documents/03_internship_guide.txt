@@ -1,0 +1,32 @@
+Source: UB CSE Department - Internships
+URL: https://engineering.buffalo.edu/computer-science-engineering/information-for-students/experiential-learning/internships.html
+Type: Official department page
+
+CSE Internship Guide at University at Buffalo:
+
+Finding Internships:
+Students are responsible for locating their own internships. The department does not place you — you need to actively search. Recommended resources include the UB Career Design Center (Handshake platform for jobs and internships), career fairs hosted multiple times yearly (especially the STEAM Job + Internship Fair), networking with companies and peers, and online platforms like LinkedIn, Indeed, and company career pages.
+
+Academic Credit for Internships:
+Undergraduates can earn credit through CSE 496 (1-5 credit hours, Pass/Fail). Maximum 3 credits count toward required 400-level courses. Prerequisite: CSE 250 (Data Structures) or special permission. You need to work a minimum of 3 hours per week per credit (example: 3 credits = 9 hours/week for 14 weeks = 126 total hours). Maximum 20 hours/week during fall/spring, 40 hours/week during winter/summer.
+
+Graduate students use CSE 598 or CSE 700 for internship credit (1-3 hours, Satisfactory/Unsatisfactory).
+
+Application Process:
+Force registration deadline is the second Friday of the semester. Required documents: completed application form and official company offer letter on company letterhead with job duties, dates, time commitment, and reporting structure. Submit through the SEAS Force Registration Portal.
+
+International Student Requirements:
+F-1 visa holders must obtain approval from International Student Services (ISS) for either Curricular Practical Training (CPT) during the academic term or Optional Practical Training (OPT) after graduation. You cannot start working without approved authorization — allow adequate processing time, at least several weeks.
+
+Internship Coordinator: Associate Professor Haipeng Cai
+Undergraduate Coordinator: Deanna Abdellatif
+
+Completion Requirements:
+Submit the CSE Internship Evaluation Form by the last day of classes. Failure to submit results in an Incomplete grade.
+
+Practical Advice for Getting Internships:
+- Start preparing early. Ideally, begin leetcoding and building projects by the end of your sophomore year.
+- Your resume needs projects. Class projects count, but personal projects and hackathon projects stand out more.
+- Apply broadly — don't just target FAANG. Mid-size companies and startups are often easier to get into for your first internship.
+- Use UB's Career Design Center for resume reviews and mock interviews. They're free and surprisingly helpful.
+- Attend the STEAM Job + Internship Fair even as a freshman or sophomore — it's good practice for talking to recruiters.

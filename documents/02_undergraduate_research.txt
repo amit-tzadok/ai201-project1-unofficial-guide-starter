@@ -1,0 +1,45 @@
+Source: UB CSE Department - Undergraduate Research
+URL: https://engineering.buffalo.edu/computer-science-engineering/undergraduate/experiential-learning/undergraduate-research.html
+Type: Official department page
+
+Undergraduate Research Opportunities in CSE at University at Buffalo:
+
+Overview:
+The CSE department provides undergraduates with ample opportunities to engage in creative research under faculty mentorship while earning academic credit. Research experience is one of the most valuable things you can get as a CS undergrad — it strengthens grad school applications, helps you figure out what areas of CS interest you, and sets you apart from other candidates in job interviews.
+
+Research Areas Available:
+CSE faculty are at the forefront of their fields, and students can engage in research on a variety of topics:
+- Artificial intelligence and machine learning
+- Pattern recognition and computer vision
+- High-performance computing
+- Algorithms and complexity
+- Medical image processing
+- Multimedia systems
+- Optical, wireless, and sensor networks
+- Computer security and information assurance
+- Software systems and programming languages
+- Computer architecture and VLSI systems
+- Natural language processing
+- Robotics
+
+How to Get Involved:
+1. Identify a professor whose research interests you. Look at faculty pages on the CSE website and read their recent publications.
+2. Email the professor with a brief introduction, your background, and why their research interests you. Be specific about which papers or projects caught your attention.
+3. Register for CSE 498 (Undergraduate Research) or CSE 499 (Independent Study) for academic credit.
+4. Complete the CSE 498-499 Form and submit it through the SEAS Force Registration Request Form.
+
+NSF Research Experience for Undergraduates (REU):
+The department participates in the National Science Foundation's REU program, which provides paid research experience with world-class faculty. REU positions are competitive and usually available during the summer. Apply early — deadlines are typically in February or March.
+
+UB's Center for Computational Research (CCR):
+UB has one of the nation's leading supercomputing centers, which supports research in bioinformatics, medical image processing, virtual reality, and geographic information systems. If your research involves large-scale computation, you may get access to these resources through your faculty advisor.
+
+Contact:
+Undergraduate Office Co-Directors: Dr. Matthew Hertz (352 Davis Hall) and Dr. Jaroslaw Zola (209 Capen Hall)
+Academic Coordinator: Deanna Abdellatif (338O Davis Hall)
+Email: cse-uginfo@buffalo.edu
+
+Tips:
+- Start looking for research opportunities in your sophomore year. You'll need at least CSE 250 (Data Structures) as background for most projects.
+- Don't be intimidated — professors expect undergrads to learn on the job. You don't need to be an expert before you start.
+- Research experience is especially important if you're considering graduate school. Having a professor who knows your work well also means a strong letter of recommendation.

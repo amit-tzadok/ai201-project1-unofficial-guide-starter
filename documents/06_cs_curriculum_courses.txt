@@ -1,0 +1,42 @@
+Source: UB CSE Department - Course Catalog and BS in Computer Science curriculum
+URLs: https://engineering.buffalo.edu/computer-science-engineering/undergraduate/courses/course-catalog.html, https://engineering.buffalo.edu/computer-science-engineering/undergraduate/degrees-and-programs/bs-in-computer-science.html
+Type: Official department pages
+
+UB Computer Science Curriculum and Course Guide:
+
+Program Overview:
+The BS in Computer Science at UB currently has 1,214 enrolled students. Starting salary range for graduates: $69,000 - $100,920. The first two years build a strong foundation in programming, data structures, and digital systems. Junior year focuses on algorithms, programming languages, computer organization, and theory of computation. Senior year covers software engineering and operating systems, plus electives.
+
+Required Core Courses (in typical order):
+- CSE 115: Introduction to Computer Science I — Your first programming course. Learn Python fundamentals. The pace can be fast if you've never coded before.
+- CSE 116: Introduction to Computer Science II — Object-oriented programming, more complex data handling. A step up from 115.
+- CSE 191: Introduction to Discrete Structures — Math for CS: logic, proofs, sets, combinatorics. Many students find this challenging if they're not comfortable with abstract math.
+- CSE 220: Systems Programming — C programming, memory management, pointers. A tough transition from Python/Java. Start early on assignments.
+- CSE 250: Data Structures — Arrays, linked lists, trees, hash tables, graphs. One of the most important courses for interview prep. Master this material.
+- CSE 241: Digital Systems — Hardware fundamentals, logic gates, circuits. Not everyone's favorite, but necessary for understanding how computers work at the lowest level.
+- CSE 331: Algorithms and Complexity — Algorithm design, analysis, dynamic programming, graph algorithms. Considered one of the hardest required courses. Strong math skills help.
+- CSE 341: Computer Organization — CPU architecture, assembly language, memory hierarchy.
+- CSE 396: Introduction to the Theory of Computation — Automata, formal languages, computability. Very theoretical and math-heavy.
+- CSE 421: Introduction to Operating Systems — Processes, threads, memory management, file systems. A demanding but rewarding senior course.
+- CSE 442: Software Engineering — Team-based project course. You'll build a real application with a team. Teaches agile development, version control, testing.
+
+Popular Electives (400-level, choose based on your interests):
+- CSE 312: Introduction to Web Applications — Full-stack web development. Very practical and job-relevant.
+- CSE 365: Introduction to Computer Security — Covers vulnerabilities, cryptography, network security. Pairs well with UBNetDef club.
+- CSE 368: Introduction to Artificial Intelligence — AI fundamentals, search, logic, planning.
+- CSE 370: Applied HCI and Interface Design — User experience design, prototyping.
+- CSE 435: Information Retrieval — How search engines work. Useful for NLP and data science paths.
+- CSE 440: Machine Learning and Society — Ethics and applications of ML.
+- CSE 460: Data Models and Query Languages — Database design and SQL.
+- CSE 462: Database Systems — More advanced database internals.
+- CSE 465: Computer Security — Advanced security topics.
+- CSE 469: Introduction to Data Mining — Pattern finding in large datasets.
+- CSE 474: Introduction to Machine Learning — Core ML algorithms and theory. Highly recommended for AI career path.
+- CSE 486: Distributed Systems — How systems like cloud platforms work at scale.
+- CSE 489: Modern Networking Concepts — Computer networks, protocols, internet architecture.
+
+Course Advice:
+- CSE 250 is the gateway course. If you do well here, the rest of the program is manageable. If you struggle, get help immediately.
+- Take CSE 331 and CSE 341 before your senior year if possible — they're prerequisites for many electives.
+- Don't overload on hard courses in one semester. Pair a tough course (like 331) with a lighter elective.
+- CSE 442 (Software Engineering) is the closest thing to real-world work. Take it seriously — the team project teaches skills that interviews actually test.

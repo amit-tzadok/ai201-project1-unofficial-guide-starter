@@ -29,8 +29,12 @@ Study Resources:
 - LeetCode (free tier is sufficient to start, premium helps with company-specific questions)
 - NeetCode.io — curated problem lists organized by topic, with video explanations
 - Blind 75 — a list of 75 essential LeetCode problems that cover all major patterns
-- Cracking the Coding Interview (book) — good for understanding interview structure
+- Cracking the Coding Interview (CTCI) by Gayle Laakmann McDowell — highly recommended. Read it cover to cover, not just the problems. It explains how interviews actually work, how to structure your answers, and how interviewers evaluate you. One of the best investments you can make for your career.
 - UB ACM sometimes hosts mock interview sessions and coding workshops
+- CodePath Technical Interview Course — a free course specifically designed to prepare students for technical interviews. It's structured, guided, and much better than trying to grind LeetCode alone with no direction. Highly recommended if you can get a spot.
+
+Study Groups and Accountability:
+Form a study group with other students who are also preparing for interviews. Meeting regularly to solve problems together holds you accountable, keeps you motivated, and prepares you for the collaborative aspect of real interviews. Explaining your approach to others is the best way to get ready for mock interviews — if you can teach someone your solution, you truly understand it. Even 2-3 people meeting once a week makes a huge difference compared to studying alone.
 
 Behavioral Interview Tips:
 Technical interviews aren't just about coding. You'll also face behavioral questions. Prepare stories about teamwork, handling conflict, and times you overcame a technical challenge. Use the STAR method (Situation, Task, Action, Result).
